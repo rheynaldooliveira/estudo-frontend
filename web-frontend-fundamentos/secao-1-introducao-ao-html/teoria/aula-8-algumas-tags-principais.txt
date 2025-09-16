@@ -1,0 +1,38 @@
+Tags HTML
+    dando significado ao conteudo
+<> ... </>
+
+Tags aninhadas
+<p> Texto com <i>itálico</i> aqui </p>
+
+Títulos
+<h1> até o <h6>
+
+Destaque em textos
+<i>itálico</i>
+<b>negrito</b>
+<em>itálico semântico</em>
+<strong>negrito semântico</strong>
+<mark></mark>
+
+Listas não ordenadas
+<ul>
+    <li></li>
+</ul>
+
+Listas ordenadas
+<ol>
+    <li></li>
+</ol>
+
+Links
+<a>link</a>
+
+Atributos
+<tag atributo="valor"> texto aqui </tag>
+
+<a href="http://paginal.com" target= "_blank">html5</a>
+
+Quebra de linha
+<br>
+<hr>

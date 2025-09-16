@@ -1,0 +1,10 @@
+Display: flex
+
+Usado para posicionamento
+divido em flex container e flex items,sendo flex items somente os filhos diretos daquele elemento
+
+Com isso podemos utilzar novas propriedades como o flex-wrap e o flex-direction,essas duas podem ser consolidadas na propriedade flex-flow
+Tambem podemos usar o justify-content para distribuir os flex items de forma conveninente no espaço disponivel no container
+alem disso align-items alinha quando os items flex cabem em uma linha e o align-content alinha quando tem mais de uma linha de flex items
+
+É preciso abordar tambem um pouco dos conceitos de main e cross aqui estamos falando de flexbox Axes, se o flex-direction for row o main axis será na horizontal e o cross axis sera na vertical,se for column inverte main na vertical e cross na horizontal

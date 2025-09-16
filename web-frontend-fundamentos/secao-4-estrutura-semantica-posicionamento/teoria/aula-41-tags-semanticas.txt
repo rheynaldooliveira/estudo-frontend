@@ -1,0 +1,7 @@
+Layouts
+Wireframe
+Anteriormente no desenvolvimento web se usava basicamente as tags div com id's diferentes
+Com o advento do html5 vieram as tags semanticas
+Vieram as tags header(cabeçalho) nav(para nevegação principal) main (conteudo principal da pagina) footer(rodapé da pagina) section(agrupa um conjunto de informações que se relacionam) article(pequeno conteudo) aside (qualquer conteudo que esteja a parte do conteudo principal)
+tags não semanticas tambem podem ser usada se as tegs semanticas não atenderem ao sentido do conteudo div (elemento de bloco) span (elemento de linha)
+

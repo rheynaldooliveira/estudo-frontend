@@ -1,0 +1,30 @@
+-CSS: Cascade Style Sheet
+-Sintaxe do css:
+        regra(declaração)
+    -seletor { propriedade: valor; }
+        h1{ color: red; }
+-Uma regra de css pode ter mais de uma declaração
+    h1{
+        color: red;
+        font-size: 16px;
+    }
+Como incluir:
+    Inline  -> <p style="declaração"> paragrafo </p>
+    Interno -> <head> <style> regra{declaração} </style> </head>
+    Externo -> <head> <link href="arquivos-externo.css" rel="stylesheet"> </link> </head>
+
+Seletores de elementros                 Seletores de classes                    Seletor de id             
+    html        css         html                            css                 html                css
+    <h1></h1>   h1{}        <p class="minha-classe"><p>    .minha-classe{}     <p id="meu-id"><p>  #meu-id{}
+
+fonts:              text:
+    font-family        text-align
+    font-size          text-decoration 
+    font-style         text-indent
+    font-weight        text-transform
+
+Cor LUZ/RGB
+ 🔴
+🟢🔵
+
+color & background-color:

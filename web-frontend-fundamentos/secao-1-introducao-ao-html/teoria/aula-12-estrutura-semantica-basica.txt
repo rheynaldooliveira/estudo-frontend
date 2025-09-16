@@ -1,0 +1,8 @@
+- Todo arquivo html deve começar com a tag <html> em seguida <head> e a tag <body>
+- a tag <html> deve ter o atributo lang informa aos motores de busca em qual lingua a pagina foi escrita
+- Dentro da tag <head> teremos as tag <title> resposavel pelo titulo da pagina, a tag <meta tags> tera informações que chegarão ao agente de usuario mas não para o usuario final. além disso terá link para arquivos externos
+- A tag <body> contará com todo o conteudo da página
+- fora das tags teremos a diretiva <!doctype html> que informara para o agente de usuário que o arquivo esta em formato .html
+- O chatset é uma meta tag que informara o formato dos caracteres da pagina
+- tags <a> utilizam o atributo hrel e title, <link> href e rel, <img> src e alt e <script> src
+

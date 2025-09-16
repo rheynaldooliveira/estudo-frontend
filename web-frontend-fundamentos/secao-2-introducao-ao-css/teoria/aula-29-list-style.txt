@@ -1,0 +1,6 @@
+List-style
+list-style-type
+list-style-position
+list-style-image
+
+list-style: type position image

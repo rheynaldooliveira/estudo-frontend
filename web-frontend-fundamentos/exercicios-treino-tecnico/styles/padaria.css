@@ -1,0 +1,126 @@
+@font-face {
+  font-family: "WorkSans";
+  src: url(../fonts/WorkSans-Medium.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url(../fonts/WorkSans-Bold.ttf);
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WorkSans";
+  src: url(../fonts/WorkSans-Italic.ttf);
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "WorkSans";
+  src: url(../fonts/WorkSans-Light.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rye";
+  src: url(../fonts/Rye-Regular.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+html {
+  font-family: "WorkSans";
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background-color: #400d01;
+  /* background-color: #ccc; */
+  height: 260px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.main-title-logo{
+    position: relative;
+    display: inline-block;
+    right: 90px;
+    top: 20px;
+    
+
+}
+
+.main-title {
+    position: relative;
+    top: 100px;
+    right: 7.3%;
+    margin: 0;
+    color: #f1b66d;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4.5em;
+    font-weight: 100;
+    font-family: 'Rye';
+    background-color: #8C3C1F;
+    border-left: 5px solid #D98B48;
+    border-top: 5px solid #D98B48;
+    border-bottom: 5px solid #D98B48;
+    padding: 5px 0px 5px 15px;
+    border-radius: 20px 0 0 20px;
+    z-index: 2;
+    
+}
+
+.logo {
+  position: absolute; 
+  top: -16%;      
+  right: -25%;   
+  width: 30.59%;
+  height: auto;
+  background-color: #8c3c1f;
+  border: 5px solid #d98b48;
+  border-radius: 50%;
+  margin-left: -40px;
+  padding: 10px;
+  z-index: 1;
+}
+
+.main-menu {
+  background: linear-gradient(to bottom, #732002 50%, #8c3503 50%);
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+}
+
+.list-main-menu {
+  position: relative;
+  right: 5%;
+}
+
+.item-list-main-menu {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.link-item-list-main-menu {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: #bf6b21;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  margin-left: 30px;
+  text-shadow: 0.5px 0.5px 0.5px black;
+}

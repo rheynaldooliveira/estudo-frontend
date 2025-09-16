@@ -1,0 +1,6 @@
+Float e Clear
+Fluxo Normal é que cada elemento de bloco fique abaixo um do outro
+O que o float faz é retirar determinado elemento do fluxo normal e posicionalo a esquerda ou a diretira do elemento pai utilizando o atributo left ou right
+isso pode causar quebra de layout ja que quando a propriedade float é aplicada ela sai do contexto do objeto pai fazendo com que ele não enxergue o elemento para determinar sua altura e largura por exemplo
+alem disso os objetos dentro do elemento pai não levam o elemento com float em consideção tambem, mudando o seu posicionamento para se encaixar dentro do objeto pai
+O Clear faz com que a mudança de posicionamento causada pelo float não seja aplicada ao elemento com este atributo

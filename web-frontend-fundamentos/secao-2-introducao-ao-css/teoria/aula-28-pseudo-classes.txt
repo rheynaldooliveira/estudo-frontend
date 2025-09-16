@@ -1,0 +1,6 @@
+Pseudo-classe
+-Não são classes definidas pelo desenvolvedor mas sim pelas interações do usuario com aquele elemento, por exemplo, quando passamos o mouse em um elemente ele pode mudar o estilo para outro.
+-a:link
+-a:hover
+-a:visited
+-a:active

@@ -1,0 +1,10 @@
+Position
+Serve para posicionar elementos na tela
+Static é o valor padrão, a ordem que os elementos aparecem no browser é a mesma ordem do codigo
+Relative trabalha com propriedade de direção, por exemplo se eu tenho um position relative left top, o espaço do elemento é preservado, mas o elemento se mostra a diretia e abaixo do espaço original, o posicionamento é relativo a posição inicial do elemento
+Absolute ao contrario do relative o posicionamento original não é preservado, o elemento sai completamento do fluxo natural do documento e agora o posicionamento usa o elemento pai como referencia se o elemento pai tiver o valor diferente de Static
+Fixed sempre vai se relacioanar com o viewport, o elemento é posicionado com base na area visivel do browser,alem de sair tambem do fluxo normal do documento
+Sticky é um hibrido entre absolute e fixed, com um comportamento combinado dos dois
+Z-index
+Consegue controlar quem estara na frente quando acontece sobreposição de elementos,valores maiores são mostrados primeiro
+Palavra chave - Contexto de empilhamento

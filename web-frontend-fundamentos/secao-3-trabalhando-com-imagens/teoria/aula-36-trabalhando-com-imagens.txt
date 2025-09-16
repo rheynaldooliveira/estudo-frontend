@@ -1,0 +1,13 @@
+Imagens
+Duas formas para inserirmos Imagens
+
+html <img src=".." alt=".."> Obs:Atributo Alt serve para acessibilidade,CEO ou problemas com a imagem
+css background-image: ulr(...);
+
+bitmap -> mais utilizada em fotografia,muitos pixels,muitos detalhes
+vector - mais definição,mas poucos detalhes
+
+Tipos de Imagens
+.jpg/.jpeg  .svg
+.png        .webp
+.gif        .avif

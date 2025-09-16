@@ -1,0 +1,35 @@
+...
+    -1982
+    -Internet
+    -Padrão de publicação e distribuição de textos cientificos e acadêmicos.
+    -Hipertexto: Leitura não linear
+    -Manutenção custeosa
+    -navegator fight
+    -Para resolver o conflito - W3C - padrão definido
+    -Seguindo os padrões
+    -html semantico
+    -css visual
+    -js interação
+...
+O que é um arquivo html?
+    -É um arquivo de texto com marcações html que dão significado ao conteudo.
+
+-Titulo vs paragrafo
+    <h1> Isso é um título </h1>
+    <p> Isso é um paragrafo </p>
+    <p> Isso é um parágrafio com <b>negrito</b></p>
+Obs:Primeira tag aberta é a ultima fechada
+
+-Para criar arquivo .html se usa editor de texto
+-Para ler utilizamos navegadores
+
+-.html = Página | diretorio = site
+
+-Comunicação Cliente Servidor
+    Requisição do Cliente
+    Resposta do revidor
+    Reprodução no cliente
+o que é necessário?
+-URL localizador de recursos
+-HTTP Protocolo de transferencia de Hipertexto
+-HTML  - Linguagem de marcação de hipertexto

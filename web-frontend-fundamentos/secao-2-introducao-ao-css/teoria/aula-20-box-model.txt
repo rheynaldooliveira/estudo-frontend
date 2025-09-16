@@ -1,0 +1,65 @@
+-Box model
+-Cada elemento do html se comporta como uma caixa
+-Propriedades do box model:
+    -Width e Height
+    -Largura e Altura
+    -Definido por px,em ou porcentagem
+    -Sempre é relativo ao elemento pai
+    p{
+        width:50%;
+        height:150px;
+    }
+
+    -Margin e padding
+    -Margin espaço externo do elemento
+    -Padding espaço interno do elemento
+    -igual a um relogio de ponteiro, primeiro definimos: top > right > bottom > left
+    -Quando algum valor é omitido, o valor diametralmente oposto do "relogio" é utilizado
+    p{
+        margin-top:50px;
+        margin-right:40px;
+        margin-bottom:30px;
+        margin-left:20px;
+    }
+    p{ margin: 50px 40px 30px 20px;}
+
+    p{
+        padding-top:50px;
+        padding-right:40px;
+        padding-bottom:30px;
+        padding-left:20px;
+    }
+    p{ padding: 50px 40px 30px 20px;}
+
+    -Border
+    -define as bordas dentro do  elemento
+    -podemos definir largura,estilo e cor
+    -tambem podemos definir as bordas individualmente utilizando top,right,bottom,left
+
+    p{
+        border-width:5px;
+        border-style: dotted;
+        border-color: red;
+    }
+    p{ border: 5px dotted red;}
+
+    -Outline
+    -define as bordas fora do elemento
+    p{ outline: 5px dotted red;}
+
+    -box-sizing
+    -muda a referencia da largura do elemento
+    p{
+        box-sizing:content-box
+    }
+    -baseado no conteudo do elemento
+    p{
+        box-sizing:border-box
+    }
+    -baseado no tamanho inteiro do box-model, somando o conteudo do elemento e as propriedades de margin,padding,border e outline
+
+    -display
+    -temos elementos de nivel de bloco e elesmentos e nivel de linha
+    -elementos de nivel de bloco oculpam a largura inteira disponivel no conteiner e geram quebra de linha
+    -elementos de nivel de linha ocupam somente o espaço necessário para o conteudo e não geram quebra de linha
+    

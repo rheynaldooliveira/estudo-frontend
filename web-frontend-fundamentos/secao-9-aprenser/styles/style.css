@@ -1,0 +1,145 @@
+@import url(../style/reset.css);
+
+@font-face {
+  font-family: "Maven Pro";
+  src: url("../fonts/MavenPro-VariableFont_wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("Inter-VariableFont_opsz,wght.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("Inter-Italic-VariableFont_opsz,wght.ttf")
+    format("truetype-variations");
+  font-weight: 100 900;
+  font-style: italic;
+}
+
+:root {
+  --main-backgroud-color: #2a2a2a;
+  --present-background-color: #003464;
+  --main-color: #fed001;
+  --main-font-family: "Maven Pro", sans-serif;
+  --main-font-semibold: 600;
+  --main-font-extrabold: 800;
+  --seco-font-family: "Inter", sans-serif;
+  --seco-font-semibold: 550;
+  --seco-font-regular: 400;
+  --width-page: 1300px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.hero-support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 16vh;
+  background-color: var(--main-backgroud-color);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: var(--width-page);
+}
+
+.hero-logo {
+  width: 16rem;
+}
+
+.main-menu {
+  display: flex;
+  flex-basis: 27%;
+  height: fit-content;
+}
+
+.main-menu-list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-basis: 100%;
+  gap: 1.62rem;
+  padding-left: 0;
+}
+
+.main-menu-item {
+  list-style-type: none;
+  display: flex;
+}
+
+.main-menu-item-link {
+  flex: 1;
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-semibold);
+  font-size: 1.3rem;
+  letter-spacing: 0.17rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--main-color);
+  padding: 0.94rem;
+  border: 1px solid var(--main-color);
+}
+
+.call-image-support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background: linear-gradient(to top, #FFFF38, #FFFFFF);
+}
+
+.call-image {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  width: 60%;
+  height: 60vh;
+  background-image: url(../images/HeroImage.png);
+  background-position: bottom right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.call-title {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-semibold);
+  font-size: 5rem;
+  width: 16ch;
+  color: var(--main-backgroud-color);
+/* 
+  line-height: 1.2;
+  height: calc(1.2em * 3);
+  overflow: hidden; */
+}
+
+.call-title strong {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.call-link {
+  font-family: var(--seco-font-family);
+  font-weight: var(--seco-font-semibold);
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: var(--main-backgroud-color);
+  padding: 1rem 4rem;
+  background-color: var(--main-color);
+  border-radius: 0.3rem;
+  border: 1px solid rgba(128, 128, 128, 0.145);
+}
+

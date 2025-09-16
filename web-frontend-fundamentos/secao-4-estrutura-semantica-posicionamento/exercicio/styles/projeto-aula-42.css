@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    background-image: url(../images/projeto-aula-42-bg-3.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+    
+}
+
+nav{
+    text-align: right;
+    padding: 20px 40px;
+}
+
+ul{
+    
+    margin-top: 0;
+}
+
+li{
+    display: inline-block;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.445);
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 12px;
+}
+
+h1{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+}
+
+p.slogan{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.555);
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 1px solid white;
+}
+main{
+    background-color: rgb(202, 201, 201);
+}
+article{
+    background-color: white;
+    width: 80%;
+    padding: 16px;
+    margin: auto;
+}
+
+h2{
+    background-color: rgb(228, 226, 226);
+    margin-top: 0;
+    padding: 6px;
+    border-bottom: 1px solid gray;
+    
+}
+
+footer{
+    font-size: 10px;
+    background-color: rgba(49, 49, 49, 0.815);
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.foot{
+    margin-top: 0;
+}
