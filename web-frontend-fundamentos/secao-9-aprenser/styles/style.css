@@ -33,11 +33,22 @@
   --seco-font-family: "Inter", sans-serif;
   --seco-font-semibold: 550;
   --seco-font-regular: 400;
-  --width-page: 1300px;
+  --width-page: 1440px;
 }
 
 html {
   font-size: 62.5%;
+  
+}
+
+body {
+  width: var(--width-page);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 .hero-support {
@@ -97,7 +108,8 @@ html {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  background: linear-gradient(to top, #FFFF38, #FFFFFF);
+  background: linear-gradient(to top, #ffff38, #ffffff);
+  margin-bottom: 40px;
 }
 
 .call-image {
@@ -106,8 +118,8 @@ html {
   gap: 2rem;
   align-items: flex-start;
   justify-content: center;
-  width: 60%;
-  height: 60vh;
+  width: 95rem;
+  height: 45rem;
   background-image: url(../images/HeroImage.png);
   background-position: bottom right;
   background-size: contain;
@@ -120,10 +132,6 @@ html {
   font-size: 5rem;
   width: 16ch;
   color: var(--main-backgroud-color);
-/* 
-  line-height: 1.2;
-  height: calc(1.2em * 3);
-  overflow: hidden; */
 }
 
 .call-title strong {
@@ -141,5 +149,162 @@ html {
   background-color: var(--main-color);
   border-radius: 0.3rem;
   border: 1px solid rgba(128, 128, 128, 0.145);
+}
+
+.main-page {
+  width: var(--width-page);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.section-courses-title {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-semibold);
+  font-size: 4rem;
+}
+.courses-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40rem;
+  gap: 30px;
+}
+.courses-section > :nth-child(1) {
+  background-image: url(..//images/curso-design.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+.courses-section > :nth-child(2) {
+  background-image: url(..//images/curso-design-1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+.courses-section > :nth-child(3) {
+  background-image: url(..//images/curso-design-2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+
+.card-courses {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.135);
+  border: 1px solid rgba(128, 128, 128, 0.471);
+  padding: 4rem;
+  height: 39rem;
+  width: 38rem;
+  border-radius: 10px;
+}
+
+.course-title {
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-extrabold);
+  font-size: 2rem;
+}
+
+.course-desc {
+  font-family: var(--seco-font-family);
+  font-weight: var(--seco-font-regular);
+  font-size: 1.4rem;
+  line-height: 2rem;
+  width: 36ch;
+}
+
+.school-support {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  background-color: #003464;
+  margin-top: 40px;
+}
+
+.school-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: flex-end;
+  justify-content: center;
+  width: 120rem;
+  height: 45rem;
+  background-image: url(../images/nossa-escola.png);
+  background-position: bottom left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: white;
+  
+}
+
+.school-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 40rem;
+}
+
+.title-school{
+  font-family: var(--main-font-family);
+  font-weight: var(--main-font-semibold);
+  font-size: 3.5rem;
+  
+}
+
+.school-desc{
+  font-family: var(--seco-font-family);
+  font-weight: var(--seco-font-regular);
+  font-size: 1.7rem;
+  width: 50ch;
+}
+
+.school-loc{
+  width: 100%;
+  height: 55rem;
+  border: 0;
+}
+
+.section-address{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 70rem;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.aprenser-address{
+  display: flex;
+  flex-direction: column;
+  font-family: var(--seco-font-family);
+  font-weight: var(--seco-font-regular);
+  font-size: 1.8rem;
+  text-align: right;
+  align-self: flex-end;
+}
+
+.aprenser-address a{
+  color: #2a2a2a;
+}
+
+.aprenser-footer{
+  background-color: var(--main-backgroud-color);
+  color: white;
+  font-size: 1.2rem;
+  font-family: var(--seco-font-family);
+  font-weight: var(--seco-font-regular);
+  width: 100vw;
+  height: 8rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
