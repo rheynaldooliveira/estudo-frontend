@@ -1,0 +1,12 @@
+Tablelas
+mostra dados tabulares
+table > tr > td
+atributos colspan,rowspan
+table > tr > td colspan"2"
+table > tr rowspan"2" > td
+adicionar semântica
+table > tr > th
+table > thead > tr > th + tbody > tr > td + tfoot > tr > th
+propriedades do css
+border-collapse
+separate collapse

@@ -1,0 +1,5 @@
+Listas
+Aninhas e Definição
+listas aninhadas são listas dentro de listas
+listas de definição são apropriadas para dicionarios,glossarios e afins
+dl > dt + dd + dt + dd ou dl > dt + dd + dd + dd e por ai vai, depende de quantos termos e dee quantas definições

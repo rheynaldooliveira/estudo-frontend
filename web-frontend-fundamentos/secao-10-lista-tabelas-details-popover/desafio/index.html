@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de usuário</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+        }
+
+        .card {
+            position: relative;
+            width: 23em;
+            margin: 0 auto;
+            /* border: 1px solid black; */
+            box-shadow: .5px .5px .5px rgba(0, 0, 0, 0.248);
+            padding: 1em;
+            border-radius: 10px;
+            background-color: white;
+        }
+
+        summary {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        button {
+            position: absolute;
+            top: .9em;
+            right: 2.2em;
+            padding: .5em 0.9em;
+            background-color: rgb(80, 131, 241);
+            color: white;
+            border-radius: 4px;
+            border: transparent 1px solid;
+            cursor: pointer;
+        }
+
+        ::backdrop {
+            background-color: rgba(0, 0, 0, .32);
+        }
+
+        :popover-open {
+            inset: unset;
+            border-radius: 10px;
+            background-color: rgb(80, 131, 241);
+            color: white;
+            padding: 0 1em;
+            transform: translateX(-19%) translateY(-190%);
+        }
+        #msg{
+            position: fixed;
+            inset: unset;
+            left: 50%;
+            top: 15%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <details open>
+            <summary>Perfil de Cauã Victor</summary>
+            <p><strong>Nome:</strong> Cauã Victor</p>
+            <hr>
+            <h3>Informações de contato</h2>
+                <p><strong>Email:</strong> cauavictor@example.com</p>
+        </details>
+        <button popovertarget="msg">Ajuda</button>
+        <div id="msg" popover="">
+            <p>O nome completo do usuário. Ele pode ser alterado nas configurações de perfil.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
