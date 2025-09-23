@@ -1,0 +1,9 @@
+Como criar formularios para web
+principais tags <form> <input type="text">
+tag label indica pro agente de usuario do que se trata o input, precisa do id do input
+<fieldset> grupo logico dentro do form
+<legend>titulo do fildset
+outras entradas de dados
+textarea,select,details,option,optiongroup
+formas de visualização de dados
+progress,meter,output

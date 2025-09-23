@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+    <style>
+        body{
+            padding-bottom: 100vh;
+        }
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Introdução</legend>
+            <label for="">Email</label> <br>
+            <input type="email" name="email" required placeholder="meuemail@email.com"> <br> <br>
+            <label for="">Idade</label><br>
+            <input type="number" min="0" max="100">  <br> <br>
+            <input type="date" min="2022-01-15" max="2022-01-16"><br> <br>
+            <label for="">Possui atividade extra?</label>
+            <label>
+                <input type="radio" name="atividade" value="s"> Sim  
+                
+            </label>
+            <label>
+                <input type="radio" name="atividade" value="n"> Não 
+            </label>
+            <br> <br> 
+            <input type="submit" value="mandar">
+        </fieldset>
+        <fieldset>
+            <legend>Área de interesse</legend>
+            <label><input type="checkbox" name="interesse" value="html">HTML</label>
+            <label><input type="checkbox" name="interesse" value="css">CSS</label>
+            <label><input type="checkbox" name="interesse" value="javascript">Javascript</label>
+            <label><input type="checkbox" name="interesse" value="python">Python</label>
+            <label><input type="checkbox" name="interesse" value="Java">Java</label><br> <br>
+            <label>Escolha uma linguagem <br> <br>
+            <select name="linguagem" required multiple size="8">
+                <option>Selecione uma</option>
+                <optgroup label="frontend">
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">Javascript</option>
+                </optgroup>
+                <optgroup label="backend">
+                <option value="python">Python</option>
+                <option value="Java">Java</option>
+                </optgroup>
+            </select>
+            <input type="text" list="liguagemlist">
+            <datalist id="liguagemlist">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="Javascript">
+                <option value="Python">
+                <option value="Java">
+                <option value="PHP">
+            </datalist>
+        </label>
+        </fieldset>
+        <br> 
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="msg" id="" cols="30" rows="8" maxlength="255"></textarea> <br> <br>
+            <textarea cols="30" rows="8" readonly>Contrato</textarea>
+            <label>
+                <input type="checkbox" name="" id="" checked> Aceito
+            </label>
+            <br> <br>
+            <input type="file">
+        </fieldset>
+        <input type="hidden" value="abcdef123">
+        <br> <br> <br> 
+        <input type="submit" value="mandar">
+        <input type="button" value="button">
+        <button type="submit"><em>mandar tag button</em></button>
+        <button type="button"><b>botão</b></button>
+
+        <input type="search" name="" id="">  <br> <br>
+        <input type="range" name="" id="" min="0" max="10" step=".5"><br> <br>
+        <input type="time" name="" id=""><br> <br>
+        <input type="color" name="" id=""><br> <br>
+    </form>
+</body>
+</html>
